@@ -1,12 +1,12 @@
 .nav {
     overflow: hidden;
     position: relative;
-    height: 80px;
     text-align: center;
     border-bottom-style: solid;
     border-bottom-width: 4px;
-    border-bottom-color: #424242;
-
+    border-bottom-color: #212121;
+    padding: 1%;
+    margin-top: 1%;
   }
 
   .nav-link {
@@ -14,11 +14,8 @@
     padding: 24px 10px;
     text-decoration: none;
     font-size: 15px;
-    margin-top: 15px;
-    display: inline-block;
-    /* position: absolute; */
-    top: 50%;
-    transform: translateY(20%);
+    margin-top: 20px;
+    padding: (10px, 10px);
   }
   
   .nav-link:hover {
@@ -30,10 +27,4 @@
     font-size: 20px;
     font-weight: 600
   }
-  
-  .nav-right {
-    float: right;
-    margin-right: 20px;
-  }
-  
   
