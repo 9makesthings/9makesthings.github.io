@@ -1,11 +1,13 @@
 import React from 'react';
-import {HashRouter as Router, Route, Link} from 'react-router-dom';
+import {HashRouter as Router, Route} from 'react-router-dom';
 
 import './App.css';
 import Nav from '../Nav/Nav';
 import Home from '../Home/Home';
+import Resume from '../Resume/Resume';
 import DesignProjects from '../DesignProjects/DesignProjects';
 import DevProjects from '../DevProjects/DevProjects';
+import Contact from '../Contact/Contact';
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
         <Route path="/resume" component={Resume} />
         <Route path="/design" component={DesignProjects} />
         <Route path="/development" component={DevProjects} />
+        <Route path="/contact" component={Contact} />
 
       </div>
     </Router>

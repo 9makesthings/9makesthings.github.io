@@ -1,20 +1,35 @@
-/* body {
-  font-family: 'Montserrat', sans-serif;
-} */
-
-.App {
-  text-align: center;
+body {
+  font-family: 'Raleway', sans-serif;
 }
 
+body p {
+  font-family: 'Open Sans', sans-serif;
+  color: #212121;
+}
+
+/* .App {
+  text-align: center;
+} */
+
 .App-header {
-  background-color: #282c34;
-  min-height: 10vh;
+  background-color: #424242;
+  height: 12vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(13px + 2vmin);
   color: white;
+  position: relative;
+}
+
+.App-header>h1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.about-me {
+  text-align: center;
 }
 
 .home-buttons {

@@ -15,7 +15,7 @@ class Home extends Component {
     render(){
         return(
             <div>
-                <p>A paragraph about me...</p>
+                <p className="about-me" >A paragraph about me...</p>
 
                 <div className="home-buttons" >
     

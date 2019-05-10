@@ -17,11 +17,15 @@ const Nav = (props) => {
             </Link>
 
             <Link className={props.location.pathname === '/design' ? 'active nav-link' : 'nav-link'} to="/design">
-                Design Projects
+                Design 
             </Link>
 
             <Link className={props.location.pathname === '/development' ? 'active nav-link' : 'nav-link'} to="/development">
-                Development Projects
+                Development 
+            </Link>
+
+            <Link className={props.location.pathname === '/contact' ? 'active nav-link' : 'nav-link'} to="/contact">
+                Contact 
             </Link>
         </div>
     )

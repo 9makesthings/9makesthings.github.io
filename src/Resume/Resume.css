@@ -1,0 +1,50 @@
+
+.container {
+    max-width: 900px;
+    margin: 10 auto;
+    padding: 50px;
+    border-left: 1px lightgrey;
+    text-align: left;
+}
+
+
+.container>h1 {
+    font-size: 36pt;
+    padding-top:30px;
+    padding-bottom: -30px;
+}
+
+
+.container>h3 {
+    font-size: 14pt;
+    /* color: rgb(124,198,162); */
+    padding-top: 20px;
+}
+
+.job-title {
+    font-size: 12pt;
+}
+
+p {
+    font-size: 11pt;
+}
+
+#contact {
+    text-align: right;
+    border-top: 4px solid rgb(155, 211, 184); 
+    background-color: white;
+    padding-top: 10px;
+    font-size: 12pt;
+
+}
+
+.dev-skills {
+    display: inline-block;
+    width: 30%;
+    justify-content: start;
+}
+.design-skills {
+    display: inline-block;
+    width: 45%;
+    justify-content: start;
+}
