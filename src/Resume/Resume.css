@@ -1,7 +1,7 @@
 
 .container {
-    max-width: 900px;
-    margin: 10 auto;
+    max-width: 80%;
+    margin: auto;
     padding: 50px;
     border-left: 1px lightgrey;
     text-align: left;
@@ -16,35 +16,63 @@
 
 
 .container>h3 {
-    font-size: 14pt;
-    /* color: rgb(124,198,162); */
+    font-size: 18pt;
+    color: #26a69a;
     padding-top: 20px;
+    margin-bottom: 0px;
+    font-weight: 500
+}
+
+/* .container>p {
+    margin-left: 8px;
+} */
+
+.container>.job-description {
+    margin-left: 10px;
 }
 
 .job-title {
     font-size: 12pt;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 
-p {
+p, table {
     font-size: 11pt;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-#contact {
-    text-align: right;
-    border-top: 4px solid rgb(155, 211, 184); 
-    background-color: white;
-    padding-top: 10px;
-    font-size: 12pt;
+table {
+    border-collapse: collapse;
+}
 
+thead>tr {
+    /* border-bottom-style: solid;
+    border-bottom-width: 1px; */
+    height: 25px;
 }
 
 .dev-skills {
-    display: inline-block;
+    display: inline-table;
     width: 30%;
     justify-content: start;
+    min-width: 225px;
+    margin: 8px;
 }
+
+.dev-skills td {
+    min-width: 120px;
+}
+
 .design-skills {
-    display: inline-block;
-    width: 45%;
+    display: inline-table;
+    width: 50%;
     justify-content: start;
+    min-width: 325px;
+    margin: 8px;
+}
+
+.design-skills td {
+    min-width: 120px;
 }

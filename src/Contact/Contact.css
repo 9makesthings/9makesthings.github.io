@@ -1,0 +1,40 @@
+.contact-img {
+    margin: 12% auto 0;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
+
+.contact-img>img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.contact {
+    margin: auto;
+    margin-top: 40px;
+}
+
+.left {
+    display: inline-table;
+    width: 30%;
+    margin-left: 18%;
+    margin-right: 2%;
+    text-align: right;
+}
+
+.right {
+    display: inline-table;
+    width: 30%;
+    margin-right: 18%;
+    margin-left: 2%;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 10px;
+}

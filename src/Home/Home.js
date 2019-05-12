@@ -15,8 +15,12 @@ class Home extends Component {
     render(){
         return(
             <div>
-                <h2 className="about-me" >Welcome!</h2>
-                <p className="about-me" >I'm a product developer with a passion for helping people. My goal is to create products that inspire, bring joy, meet a need, or all of the above!</p>
+                <div className="about-me" >
+                    {/* <h2>Welcome!</h2> */}
+                    <p>I'm a product developer with a passion for helping people.<br/> My goal is to create products that inspire, bring joy, meet a need, or all of the above.</p>
+
+                    <p><br/>Click through to see some projects I've worked on!</p>
+                </div>
 
                 <div className="home-buttons" >
     
