@@ -1,3 +1,8 @@
+.projects-description {
+    text-align: center;
+    margin: 80px;
+}
+
 .project-page {
     margin: auto;
     justify-content: center;
@@ -6,12 +11,17 @@
 
 .project {
     display: inline-block;
-    width: 220px;
+    width: 30%;
     height: 350px;
-    border-style: solid;
-    border-width: 1px;
+    /* border-style: solid;
+    border-width: 1px; */
     margin: 20px;
-    margin-top: 90px;
-    padding: 20px;
+    /* margin-top: 90px; */
+    /* padding: 20px; */
     flex-direction: row;
+}
+
+.project>img {
+    object-fit: cover;
+    width: 100%;
 }
