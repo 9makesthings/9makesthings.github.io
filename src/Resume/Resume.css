@@ -1,19 +1,18 @@
 
 .container {
+    min-width: 300px;
     max-width: 80%;
-    margin: auto;
+    /* margin: auto; */
     padding: 50px;
     border-left: 1px lightgrey;
     text-align: left;
 }
-
 
 .container>h1 {
     font-size: 36pt;
     padding-top:30px;
     padding-bottom: -30px;
 }
-
 
 .container>h3 {
     font-size: 18pt;
@@ -22,10 +21,6 @@
     margin-bottom: 0px;
     font-weight: 500
 }
-
-/* .container>p {
-    margin-left: 8px;
-} */
 
 .container>.job-description {
     margin-left: 10px;

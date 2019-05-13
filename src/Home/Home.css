@@ -1,0 +1,53 @@
+.about-me {
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
+    margin-top: 12vh;
+}
+
+.about-me>h2 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.home-buttons {
+    height: 60vh;
+    position: absolute;
+    top: 70%;
+    transform: translateY(-50%);
+}
+
+.dev-link, .design-link {
+    display: inline-block;
+    width: 44%;
+    height: 50vh;
+    margin: 3%;
+}
+
+.dev-link {
+    float: left;
+}
+
+.design-link {
+    float: right;
+}
+
+.dev-link>h3, .design-link>h3  {
+    font-weight: 500;
+    font-size: calc(12px + 1vh);
+    text-align: center;
+}
+
+.home-image {
+    width: 100%;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.home-image>img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

@@ -16,12 +16,12 @@ const Nav = (props) => {
                 Resume
             </Link>
 
-            <Link className={props.location.pathname === '/design' ? 'active nav-link' : 'nav-link'} to="/design">
-                Design 
-            </Link>
-
             <Link className={props.location.pathname === '/development' ? 'active nav-link' : 'nav-link'} to="/development">
                 Development 
+            </Link>
+
+            <Link className={props.location.pathname === '/design' ? 'active nav-link' : 'nav-link'} to="/design">
+                Design 
             </Link>
 
             <Link className={props.location.pathname === '/contact' ? 'active nav-link' : 'nav-link'} to="/contact">
