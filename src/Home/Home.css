@@ -15,13 +15,13 @@
     position: absolute;
     top: 70%;
     transform: translateY(-50%);
+    margin: 50px 8%;
 }
 
 .dev-link, .design-link {
     display: inline-block;
-    width: 44%;
+    width: 45%;
     height: 50vh;
-    margin: 3%;
 }
 
 .dev-link {
@@ -34,20 +34,26 @@
 
 .dev-link>h3, .design-link>h3  {
     font-weight: 500;
-    font-size: calc(12px + 1vh);
+    font-size: calc(24px + 1vh);
     text-align: center;
 }
 
 .home-image {
     width: 100%;
-    height: 40vh;
+    height: 38vh;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    border-radius: 20px;
 }
 
 .home-image>img {
     object-fit: cover;
     width: 100%;
     height: 100%;
+}
+
+
+.dev-link:hover, .design-link:hover {
+    cursor: pointer;
 }

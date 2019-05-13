@@ -38,7 +38,7 @@ class Home extends Component {
                     <div className="dev-link"
                         onClick={this.devPath} >
                         <div className="home-image">
-                            <img src="https://images.unsplash.com/photo-1514428631868-a400b561ff44?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
+                            <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" 
                             alt="Dev Projects" />
                         </div>
                         <h3>Software Development</h3>

@@ -1,39 +1,42 @@
 
 .container {
     min-width: 300px;
-    max-width: 80%;
-    /* margin: auto; */
     padding: 50px;
     border-left: 1px lightgrey;
     text-align: left;
 }
 
-.container>h1 {
-    font-size: 36pt;
-    padding-top:30px;
-    padding-bottom: -30px;
+.resume-heading {
+    width: 15%;
+    display: inline-table;
+    position: relative;
+    top: 20px;
 }
 
-.container>h3 {
-    font-size: 18pt;
+.resume-body {
+    width: 60%;
+    display: inline-table;
+}
+
+.resume-heading>h3 {
+    font-size: 2.5em;
     color: #26a69a;
     padding-top: 20px;
     margin-bottom: 0px;
-    font-weight: 500
+    font-weight: 500;
 }
 
-.container>.job-description {
+.job-title, .job-description {
     margin-left: 10px;
 }
 
 .job-title {
-    font-size: 12pt;
+    /* font-size: 12pt; */
     margin-top: 20px;
     margin-bottom: 5px;
 }
 
 p, table {
-    font-size: 11pt;
     margin-top: 5px;
     margin-bottom: 5px;
 }

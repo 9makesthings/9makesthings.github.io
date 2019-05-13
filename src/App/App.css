@@ -1,14 +1,17 @@
 body {
   font-family: 'Raleway', sans-serif;
   /* font-family: bitter, serif; */
-  font-family: permanent-marker, sans-serif;
+  /* font-family: permanent-marker, sans-serif; */
   font-family: reenie-beanie, sans-serif;
+  /* font-family: 'Chivo', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Abhaya Libre', serif; */
 }
 
 body p, table {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #263238;
-  font-size: 1em;
+  font-size: .9em;
 }
 
 /* .App {
@@ -17,7 +20,7 @@ body p, table {
 
 .App-header {
   background-color: #263238;
-  height: 14vh;
+  height: 15vh;
   display: flex;
   flex-direction: column;
   color: white;
@@ -28,10 +31,10 @@ body p, table {
 .App-header>h1 {
   position: absolute;
   /* top: 32%; */
-  top: 5.5vh;
+  top: 5vh;
   transform: translateY(-50%);
-  font-weight: 600;
-  font-size: calc(18px + 4.5vh);
-  margin-left: 20px;
+  font-weight: 500;
+  font-size: calc(32px + 4.5vh);
+  margin-left: 25px;
 }
 

@@ -11,17 +11,17 @@
     color: white;
     padding: 24px 2%;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 32px;
     margin-top: 20px;
   }
   
   .nav-link:hover {
-    font-size: 22px;
+    font-size: 32px;
     font-weight: 600
   }
   
   .nav-link.active {
-    font-size: 22px;
-    font-weight: 600
+    font-size: 32px;
+    font-weight: 600;
   }
   
