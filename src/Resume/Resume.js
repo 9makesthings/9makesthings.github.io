@@ -66,8 +66,8 @@ const Resume = () => {
                         </p>
 
                     <p class="job-title">
-                        <b>Industrial Designer</b> Regalo International | July to October 2018
-                        <br/>
+                        <b>Regalo International</b> | July to October 2018
+                        <br/><b>Industrial Designer</b> 
                     </p>
                         <p className="job-description" >
                             Researched baby products to develop new ideas and expand Regalo’s current offerings<br/> 
@@ -77,8 +77,8 @@ const Resume = () => {
                         </p>
 
                     <p class="job-title">
-                        <b>Product Designer</b> Madesmart | February 2016 to February 2018
-                        <br/>
+                        <b>Madesmart</b> | February 2016 to February 2018
+                        <br/><b>Product Designer</b>
                     </p>
                         <p className="job-description" >
                             Designed and developed new product concepts for home organization with the team.<br/> 
@@ -113,8 +113,8 @@ const Resume = () => {
 
                 <div className="resume-body" >
                     <p class="job-title">
-                        <b>Lab Instructor, Toy Product Design</b> <br/> 
-                        College of Design, U of M | Spring semesters 2013 to 2016, 2018
+                        <b>College of Design, U of M</b> | Spring semesters 2013 to 2016, 2018
+                        <br/> <b>Lab Instructor, Toy Product Design</b> 
                     </p>
                         <p className="job-description" >
                             Guided a team of students through the design process from brainstorming to presentation.<br/>
@@ -123,8 +123,8 @@ const Resume = () => {
                         </p>
 
                     <p class="job-title">
-                        <b>Creativity Counselor, Creative Design Methods</b> <br/>
-                        College of Design, U of M | Fall semesters 2015 to 2017
+                        <b>College of Design, U of M</b>| Fall semesters 2015 to 2017
+                        <br/><b>Creativity Counselor, Creative Design Methods</b> 
                     </p>
                         <p className="job-description" >
                             Mentored a team of students through a variety of methods for developing ideas and researching.<br/>

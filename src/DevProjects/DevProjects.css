@@ -19,11 +19,9 @@
 }
 
 .project>h3 {
-    font-size: 36px;
-    font-weight: 500;
     font-family: 'Open Sans';
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 .project-image {

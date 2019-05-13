@@ -15,13 +15,15 @@
     margin-top: 20px;
   }
   
-  .nav-link:hover {
-    font-size: 32px;
-    font-weight: 600
-  }
-  
-  .nav-link.active {
+  .nav-link:hover, .nav-link.active {
     font-size: 32px;
     font-weight: 600;
+    color: #26a69a;
   }
+  
+  /* .nav-link.active {
+    font-size: 32px;
+    font-weight: 600;
+    color: #26a69a;
+  } */
   
