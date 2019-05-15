@@ -8,7 +8,7 @@ class Contact extends Component {
         return(
             <div>
                 <div className="contact-img" >
-                    <img src="images/Nina_-55043.jpg" alt="Nina Johnson" />
+                    <img src="images/Web_images/Nina_-55043.jpg" alt="Nina Johnson" />
                 </div>
 
                 <div className="contact" >
