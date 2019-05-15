@@ -32,6 +32,18 @@
     margin-left: 2%;
 }
 
+.right>p>a {
+    color: #263238;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+i {
+    color: #26a69a;
+    /* font-weight: 600; */
+    font-size: 1.5em;
+}
+
 .social-icon {
     width: 40px;
     height: 40px;

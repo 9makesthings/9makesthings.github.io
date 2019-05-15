@@ -22,13 +22,19 @@ class Contact extends Component {
                     <div className="right" >
                         <p>
                             {/* cargocollective.com/9makesthings<br/> */}
-                            9makesthings@gmail.com<br/>
+                            <a href="mailto:9makesthings@gmail.com">
+                                <i class="far fa-envelope"></i> &nbsp; 9makesthings@gmail.com
+                            </a><br/>
                             {/* 651.895.4286<br/> */}
-                            github.com/9makesthings<br/>
-                            linkedin.com/in/ninajjohnson<br/>
-                            <SocialIcon className="social-icon" url="mailto:9makesthings@gmail.com" /> &#9;
-                            <SocialIcon className="social-icon" url="http://github.com/9makesthings" /> &#9;
-                            <SocialIcon className="social-icon" url="http://www.linkedin.com/in/ninajjohnson" /> 
+                            <a href="http://github.com/9makesthings">
+                                <i class="fab fa-github"></i> &nbsp; github.com/9makesthings
+                            </a><br/>
+                            <a href="http://www.linkedin.com/in/ninajjohnson">
+                                <i class="fab fa-linkedin-in"></i> &nbsp; linkedin.com/in/ninajjohnson
+                            </a><br/>
+                            {/* <SocialIcon className="social-icon" url="mailto:9makesthings@gmail.com" /> &#9; */}
+                            {/* <SocialIcon className="social-icon" url="http://github.com/9makesthings" /> &#9;
+                            <SocialIcon className="social-icon" url="http://www.linkedin.com/in/ninajjohnson" />  */}
                         </p>
                     </div>
                 </div>

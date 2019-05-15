@@ -43,3 +43,10 @@
     object-fit: cover;
     width: 100%;
 }
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    /* color: #263238; */
+    color: #26a69a;
+}

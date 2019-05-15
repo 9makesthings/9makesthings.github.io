@@ -20,7 +20,9 @@ class DevProjects extends Component {
                         <h3>PaddleNorth</h3>
                         <p>I built PaddleNorth to provide a user-friendly and informational guide to planning a trip to the Boundary Waters. The goal is to remove any barriers or lessen anxiety about making a trip for the first time and assist more seasoned paddlers in planning future trips.
                             <br/><br/>
-                            <a href="https://github.com/9makesthings/bwca-trip-planner" >Github</a>
+                            <a href="https://github.com/9makesthings/bwca-trip-planner" >
+                                <i class="fab fa-github"></i> Github
+                            </a>
                             {/* <a href="" >Website</a> */}
                         </p>
                     </div>
@@ -40,7 +42,9 @@ class DevProjects extends Component {
                         <h3>Feedback Form</h3>
                         <p>This is a basic app that allows users to enter feedback via rating on several points and allows them to add comments. Users submit their feedback, which can then be viewed and managed by an adminstrator.
                             <br/><br/>
-                            <a href="https://github.com/9makesthings/react-feedback-form" >Github</a>
+                            <a href="https://github.com/9makesthings/react-feedback-form" >
+                                <i class="fab fa-github"></i> Github
+                            </a>
                             {/* <a href="" >Website</a> */}
                         </p>
                     </div>

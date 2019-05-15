@@ -20,7 +20,9 @@ class DesignProjects extends Component {
                             toy and design a layout for one-page instructional
                             material of simple assembly.
                             <br/><br/>
-                            <a href="http://www.yoxo.com/yoxo-hilo-helicopter-construction-toy/">YOXO®</a>
+                            <a href="http://www.yoxo.com/yoxo-hilo-helicopter-construction-toy/" >
+                                <i class="fas fa-external-link-alt" /> YOXO®
+                            </a>
                         </p>
                     </div>
 
@@ -33,7 +35,9 @@ class DesignProjects extends Component {
                             house an entire beauty routine, holding both small and large
                             items with clear sight of smaller items. These were developed to stack with a family of vanity bins and are being sold by The Container Store.
                             <br/><br/>
-                            <a href="https://www.containerstore.com/s/bath/makeup-organizers/madesmart-stackable-makeup-system/12d?productId=11007641" >The Container Store</a>
+                            <a href="https://www.containerstore.com/s/bath/makeup-organizers/madesmart-stackable-makeup-system/12d?productId=11007641" >
+                                <i class="fas fa-external-link-alt"></i> The Container Store
+                            </a>
                         </p>
                     </div>
 
