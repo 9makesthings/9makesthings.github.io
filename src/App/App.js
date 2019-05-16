@@ -11,7 +11,7 @@ import Contact from '../Contact/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/' >
       <div className="App">
         <header className="App-header">
           <h1>Nina Johnson</h1>
