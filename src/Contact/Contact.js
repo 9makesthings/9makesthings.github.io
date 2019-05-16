@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { SocialIcon } from 'react-social-icons';
+// import { SocialIcon } from 'react-social-icons';
 import './Contact.css';
 
 class Contact extends Component {
@@ -14,9 +14,11 @@ class Contact extends Component {
                 <div className="contact" >
                     <div className="left" >
                         <p>
-                            <br/>
+                            {/* <br/> */}
                             If you'd like to get in touch with me, 
-                            <br/>you've come to the right place.</p>
+                            <br/>you've come to the right place.
+                            <br/></p>
+                            <br/>
                     </div>
 
                     <div className="right" >

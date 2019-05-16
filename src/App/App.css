@@ -22,6 +22,8 @@ body p, table {
   color: white;
   position: relative;
   text-align: left;
+  /* background-image: linear-gradient(#263238 96%, #ffffff) */
+    box-shadow: 1px 3px 10px 1px grey;
 }
 
 .App-header>h1 {
