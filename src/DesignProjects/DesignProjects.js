@@ -10,9 +10,12 @@ class DesignProjects extends Component {
 
                 <div className="project-page" >
                     <div className="project" >
-                        <div className="project-image">
-                            <img src="images/Web_images/YOXO-Hilo.jpg" alt="YOXO" />
+                        <div className="project-image-div" >
+                            <div className="project-image">
+                                <img src="images/Web_images/YOXO-Hilo.jpg" alt="YOXO" />
+                            </div>
                         </div>
+
                         <h3>YOXO</h3>
                         <p>Designed and rendered YOXO® creation for St. Paul
                             local toy company, Play From Scratch. The task was
@@ -27,9 +30,12 @@ class DesignProjects extends Component {
                     </div>
 
                     <div className="project" >
-                        <div className="project-image">
-                            <img src="images/Web_images/slopedbin-product.jpg" alt="Angled Bin" />
+                        <div className="project-image-div" >
+                            <div className="project-image">
+                                <img src="images/Web_images/slopedbin-product.jpg" alt="Angled Bin" />
+                            </div>
                         </div>
+
                         <h3>Angled Bin</h3>
                         <p>I developed this idea for a sloping bin that could
                             house an entire beauty routine, holding both small and large
@@ -42,9 +48,12 @@ class DesignProjects extends Component {
                     </div>
 
                     <div className="project" >
-                        <div className="project-image">
-                            <img src="images/Web_images/Playard_wBaby.jpg" alt="playard" />
+                        <div className="project-image-div" >
+                            <div className="project-image">
+                                <img src="images/Web_images/Playard_wBaby.jpg" alt="playard" />
+                            </div>
                         </div>
+
                         <h3>Playard Sandwich</h3>
                         <p>This idea was born out of wanting to simplify the process in which a
                             parent sets up and packs away a play yard while eliminating the need to bend over 

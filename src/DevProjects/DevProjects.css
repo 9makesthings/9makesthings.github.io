@@ -27,16 +27,19 @@
     border-bottom-color: #26a69a;
 }
 
+.project-image-div {
+    height: 35vh;
+}
+
 .project-image {
     display: flex;
     width: 100%;
-    height: 70%;
+    height: 100%;
     overflow: hidden;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    /* border-width: 1px;
-    border-style: solid; */
+    vertical-align: middle;
 }
 
 .project-image>img {
