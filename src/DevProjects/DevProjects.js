@@ -26,7 +26,7 @@ class DevProjects extends Component {
                             <a href="https://github.com/9makesthings/bwca-trip-planner" >
                                 <i class="fab fa-github"></i> Github
                             </a>
-                            {/* <a href="" >Website</a> */}
+                            <a href="https://paddle-north.herokuapp.com/" >Website</a>
                         </p>
                     </div>
 
